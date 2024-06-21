@@ -847,7 +847,7 @@ def _set_chrome_options(
     prefs["download.prompt_for_download"] = False
     prefs["credentials_enable_service"] = False
     prefs["local_discovery.notifications_enabled"] = False
-    prefs["safebrowsing.enabled"] = False
+    prefs["safebrowsing.enabled"] = True
     prefs["safebrowsing.disable_download_protection"] = True
     prefs["omnibox-max-zero-suggest-matches"] = 0
     prefs["omnibox-use-existing-autocomplete-client"] = 0
